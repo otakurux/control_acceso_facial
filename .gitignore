@@ -1,0 +1,93 @@
+# ==========================================
+# 1. Archivos de Entorno y Secretos (¡CRÍTICO!)
+# ==========================================
+# Ignorar credenciales y llaves de Azure Functions
+api/local.settings.json
+frontend/.env
+*.env
+*.env.local
+*.env.development.local
+*.env.production.local
+
+# ==========================================
+# 2. Python / Backend (Azure Functions)
+# ==========================================
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos compilados y caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Herramientas de pruebas/cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# 3. Node.js / Frontend (React)
+# ==========================================
+# Dependencias de NPM
+frontend/node_modules/
+node_modules/
+
+# Archivos de compilación de producción
+frontend/dist/
+frontend/build/
+
+# Logs de NPM/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 4. Archivos de Editores e IDEs
+# ==========================================
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.code-workspace
+
+# PyCharm / WebStorm / JetBrains
+.idea/
+
+# ==========================================
+# 5. Archivos del Sistema Operativo
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
