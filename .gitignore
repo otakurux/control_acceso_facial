@@ -13,6 +13,7 @@ frontend/.env
 # 2. Python / Backend (Azure Functions)
 # ==========================================
 # Entornos virtuales
+venv311/
 venv/
 env/
 ENV/
@@ -91,3 +92,8 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 ._*
+
+
+# extras
+notas.txt
+mis_fotos/
